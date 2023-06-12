@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author CVR
+ *
+ */
+module hashing {
+}

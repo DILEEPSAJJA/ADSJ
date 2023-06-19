@@ -53,27 +53,32 @@ public class SeperateChaining<K,V> {
 		return false;
 	}
 	
-	public void put(K key, V value) {
-		int h = (int)key % size;
+	public void put(K k, V val) {
+		int h = (Integer)k % size;
 		Node<K,V> temp = table[h];
 		if(table[h] == null)
-			table[h] = new Node(key,value,null);
+			table[h] = new Node(k,val,null);
 		else {
-			while(temp.next != null)
-				if(temp.key.equals(key))
+			if(temp.key.equals(k)) {
+				temp.value = val;
+				return;
+			}
+			while(temp.next != null) {
+				if((temp.key).equals(k))
 				{
-					temp.value = value;
+					temp.value = val;
 					return;
 				}
 				else
 					temp = temp.next;
-			temp.next = new Node(key,value,null);
+			}
+			temp.next = new Node(k,val,null);
 		}
 		n++;
 	}
 	
 	public V remove(K key) {
-		int h = (int)key%size;
+		int h = (Integer)key%size;
 		if(contains(key)) {
 			Node<K,V> pTemp = null;
 			Node<K,V> temp = table[h];
@@ -107,6 +112,7 @@ public class SeperateChaining<K,V> {
 			System.out.println("Key \t Value");
 			while(temp != null) {
 				System.out.println(temp.key +"\t"+temp.value);
+				temp = temp.next;
 			}
 		}
 	}

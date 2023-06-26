@@ -1,0 +1,24 @@
+1)insert 	2)remove 	3)search	 4)display	 5)exit
+
+Enter Your Choice: 
+1
+Enter value : 
+9
+9 is added.
+Enter Your Choice: 
+4
+inorder : 9 10 15 20 
+preorder : 10 9 20 15 
+postorder : 9 15 20 10 
+Enter Your Choice: 
+2
+Enter Element to remove : 
+10
+10 is removed.
+Enter Your Choice: 
+4
+inorder : 9 15 20 
+preorder : 9 20 15 
+postorder : 15 20 9 
+Enter Your Choice: 
+5

@@ -1,7 +1,6 @@
 package UserDefined_ArrayList;
 
 import java.util.*;
-
 public class StackDemo {
 	
 		public static void main(String[] args) {

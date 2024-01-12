@@ -8,7 +8,6 @@ public class ReverseLL{
 	
 	public static void main(String[] args) {
 		
-		
 		Node list = new Node();
  		
 		list.add(10);

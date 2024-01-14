@@ -11,7 +11,6 @@ public class BSTreeDemo {
 		bst.insert(10);
 		bst.insert(20);
 		bst.insert(15);
-		
 		System.out.println("1)insert \t2)remove \t3)search\t 4)display\t 5)exit\n");
 		
 		while(true) {
@@ -59,7 +58,6 @@ public class BSTreeDemo {
 						System.exit(0);
 			
 				default: System.out.println("Enter valid input.");
-				
 			}
 		}
 	}

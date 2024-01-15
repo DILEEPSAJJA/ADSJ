@@ -3,6 +3,7 @@ package bst;
 public class BSTree<T extends Comparable<T>> {
 	
 	private class Node{
+		
 		T data;
 		Node left;
 		Node right;
@@ -89,6 +90,7 @@ public class BSTree<T extends Comparable<T>> {
 	int height() {
 		return height(root);
 	}
+	
 	private int height(Node root) {
 		if(root==null) return -1;
 		return 1+Math.max(height(root.left), height(root.right));

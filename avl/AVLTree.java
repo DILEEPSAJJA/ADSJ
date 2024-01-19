@@ -1,7 +1,8 @@
 package avl;
-
 public class AVLTree<T extends Comparable<T>> {
+	
 	private class Node{
+		
 		T key;
 		Node left,right;
 		int height;

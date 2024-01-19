@@ -1,7 +1,6 @@
 package generics;
 
 class Super {
-	
 	private int superData;
 	
 	Super(){}
@@ -13,7 +12,6 @@ class Super {
 }
 
 class SubOne<T> extends Super{
-	
 	private T data;
 	
 	SubOne() {}

@@ -1,11 +1,11 @@
 package separatechaining;
-
 import java.util.Scanner;
 
 public class SeparateChainingDemo {
 	public static void main(String[] args) {
 		SeparateChaining<Integer, String> hm = new SeparateChaining<>(10);
 		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("1)put\t2)get\t3)remove\t4)display\t5)exit\n");
 		while(true) {
 		System.out.println("Enter Your Choice: ");

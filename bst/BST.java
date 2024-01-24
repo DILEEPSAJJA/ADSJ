@@ -1,5 +1,4 @@
 package bst;
-
 public class BST<T extends Comparable<T>> {
 	
 	private class Node{

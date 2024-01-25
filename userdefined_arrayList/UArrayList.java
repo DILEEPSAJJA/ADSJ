@@ -1,5 +1,4 @@
 package UserDefined_ArrayList;
-
 import java.util.Iterator;
 
 public class UArrayList<E> {

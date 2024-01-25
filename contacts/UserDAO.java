@@ -1,5 +1,4 @@
 package contacts;
-
 import java.util.*;
 
 public class UserDAO implements IUserDAO{

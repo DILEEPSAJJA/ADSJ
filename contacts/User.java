@@ -1,4 +1,5 @@
 package contacts;
+
 public class User {
 	
 	private int id;

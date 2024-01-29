@@ -1,5 +1,4 @@
 package avl;
-
 import java.util.*;
 
 public class AVLTreeDemo {
